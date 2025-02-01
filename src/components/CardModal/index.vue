@@ -21,7 +21,6 @@
 import Slider from '@/components/SliderComponent/index.vue';
 
 export default {
-  name: 'CardModal',
   components: { Slider },
   props: {
     painting: Object,
@@ -77,9 +76,9 @@ export default {
   .modal-content {
     position: relative;
     background: white;
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
-    width: 800px;
+    width: 600px;
     text-align: center;
   }
 
